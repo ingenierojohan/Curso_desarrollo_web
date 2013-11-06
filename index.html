@@ -2,17 +2,19 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Mi Primera Web App :D</title>
+		<title>Mi Primera Web App CLASE 2:D</title>
+		<link rel="stylesheet" href="normalize.css" /> <!-- REGULA TODO EL CSS -->
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" href="estilos.css" />
 	</head>
 
 	<body>
 		<header><!-- Cabecera -->
-			<figure><!-- Logo -->
+			<figure id="logo"><!-- Logo -->
 				<img src="logo.png" />
 			</figure>
-			<h1>Título de la Página</h1>
-			<figure><!-- Avatar -->
+			<h1 id="titulo_header">Puls3: Comunidad de Gente Cool atractiva y millonaria</h1>
+			<figure id="avatar"><!-- Avatar -->
 				<img src="avatar.jpg" />
 				<figcaption>
 					*
@@ -21,37 +23,37 @@
 		</header>
 		<nav> <!-- menu -->
 			<ul>
-				<li>*</li>
-				<li>Python</li>
-				<li>HTML5</li>
-				<li>Javascript</li>
-				<li>CSS3</li>
-				<li>Django</li>
-				<li>Publicar</li>
+				<li id="flechita_nav"><a href="#">*</a></li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">Javascript</a></li>
+				<li><a href="#">CSS3</a></li>
+				<li><a href="#">Django</a></li>
+				<li id="publicar_nav"><a href="#">Publicar</a></li>
 			</ul>
 		</nav>
 
-		<section> <!-- CONTENIDO -->
-			<article> <!-- Primer Articulo -->
-				<figure>
+		<section id="contenido"> <!-- CONTENIDO -->
+			<article class="item"> <!-- Primer Articulo -->
+				<figure class="imagen_item">
 					<img src="imagen.jpg" />
 				</figure>
-				<h2>
-					<a href="#">Titulo del Post</a>
+				<h2 class="titulo_item">
+					<a href="#">Este es un Tilulo del Post jajaja tiene varios tamaños como por ejemplo 123</a>
 				</h2>
-				<p> 
+				<p class="autor_item"> 
 					Por <a href="#">Johan Ramirez</a>
 				</p>
-				<p>
-					<a href="#">Categoria</a>
-					<span> Hace <strong>5</strong> min</span>
-					<a href="#">455</a>
-					<a href="#">*</a>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item"> Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#">*</a>
 				</p>
-				<p>
-					<a href="#">UP</a>
+				<p class="votacion">
+					<a class="votacion_up" href="#">UP</a>
 					3141
-					<a href="#">Down</a>
+					<a class="votacion_down"href="#">Down</a>
 				</p>
 			</article>
 		</section>
