@@ -2,10 +2,12 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<title>Mi Primera Web App CLASE 2:D</title>
 		<link rel="stylesheet" href="normalize.css" /> <!-- REGULA TODO EL CSS -->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" href="estilos.css" />
+		<link rel="stylesheet" href="responsive.css" />
 	</head>
 
 	<body>
@@ -16,14 +18,12 @@
 			<h1 id="titulo_header">Puls3: Comunidad de Gente Cool atractiva y millonaria</h1>
 			<figure id="avatar"><!-- Avatar -->
 				<img src="avatar.jpg" />
-				<figcaption>
-					*
-				</figcaption>
+				<figcaption></figcaption>
 			</figure>
 		</header>
 		<nav> <!-- menu -->
 			<ul>
-				<li id="flechita_nav"><a href="#">*</a></li>
+				<li id="flechita_nav"><a href="#"></a></li>
 				<li><a href="#">Python</a></li>
 				<li><a href="#">HTML5</a></li>
 				<li><a href="#">Javascript</a></li>
@@ -32,6 +32,20 @@
 				<li id="publicar_nav"><a href="#">Publicar</a></li>
 			</ul>
 		</nav>
+
+<aside id="bienvenida">
+	<h2>Hola, Registratel!</h2>
+	<p>Es Importente Registrate plisss</p>
+	<a href="#"id="registro">Registro ACA</a>
+	<p id="mensaje_registro">Enserio Regsitrate por Favor</p>
+
+	<video width="300" controls >
+		<source src="big_buck_bunny.webm" type="video/webm"/>
+		<source src="big_buck_bunny.mp4" type="video/mp4"/>
+		<p>Su navegador es muy VIEJO</p>
+	</video>
+
+</aside>
 
 		<section id="contenido"> <!-- CONTENIDO -->
 			<article class="item"> <!-- Primer Articulo -->
@@ -48,14 +62,62 @@
 					<a class="tag_item" href="#">Categoria</a>
 					<span class="fecha_item"> Hace <strong>5</strong> min</span>
 					<a class="comentarios_item" href="#">455</a>
-					<a class="guardar_item" href="#">*</a>
+					<a class="guardar_item" href="#"></a>
 				</p>
 				<p class="votacion">
-					<a class="votacion_up" href="#">UP</a>
+					<a class="votacion_up" href="#"></a>
 					3141
-					<a class="votacion_down"href="#">Down</a>
+					<a class="votacion_down"href="#"></a>
 				</p>
 			</article>
+
+			<article class="item"> <!-- Primer Articulo -->
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Este es un Tilulo del Post jajaja tiene varios tamaños como por ejemplo 123</a>
+				</h2>
+				<p class="autor_item"> 
+					Por <a href="#">Johan Ramirez</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item"> Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="votacion_up" href="#"></a>
+					3141
+					<a class="votacion_down"href="#"></a>
+				</p>
+			</article>
+
+			<article class="item"> <!-- Primer Articulo -->
+				<figure class="imagen_item">
+					<img src="imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Este es un Tilulo del Post jajaja tiene varios tamaños como por ejemplo 123</a>
+				</h2>
+				<p class="autor_item"> 
+					Por <a href="#">Johan Ramirez</a>
+				</p>
+				<p class="datos_item">
+					<a class="tag_item" href="#">Categoria</a>
+					<span class="fecha_item"> Hace <strong>5</strong> min</span>
+					<a class="comentarios_item" href="#">455</a>
+					<a class="guardar_item" href="#"></a>
+				</p>
+				<p class="votacion">
+					<a class="votacion_up" href="#"></a>
+					3141
+					<a class="votacion_down"href="#"></a>
+				</p>
+			</article>
+
+			
 		</section>
 		<footer>
 			<p><strong>Powered By Johan</strong></p>
